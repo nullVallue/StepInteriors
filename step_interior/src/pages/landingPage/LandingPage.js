@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import Contact from "./contact/Contact";
 import Desc from "./desc/Desc";
@@ -39,9 +40,8 @@ export default function LandingPage(){
 
             <Contact />
 
-            <div className="bg-black h-screen w-screen">
+            <Footer />
 
-            </div>
 
 
         </>
